@@ -145,8 +145,8 @@ const vocabLevels = [
     hint: "Example: FGM-148 Javelin."
   },
   {
-    termKey: "manpads",
-    answers: ["manpads"],
+    termKey: "manpad",
+    answers: ["manpad"],
     definition: "Shoulder-launched air-defence missile system used to destroy aircraft.",
     hint: "Example: FIM-92 Stinger."
   },
