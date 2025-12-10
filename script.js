@@ -25,13 +25,7 @@ const identityLevels = [
     id: "surname",
     prompt: "Level 2 — Type your SURNAME (e.g. Shevchenko).",
     hint: "Use Latin letters if possible, like on a passport.",
-  },
-  {
-    id: "combined",
-    prompt:
-      "Level 3 — Now type CLASS-SURNAME combined with a hyphen (e.g. 10-B-Shevchenko).",
-    hint: "Exactly: your-class, then a hyphen, then your surname.",
-  },
+  }
 ];
 
 // Vocabulary levels — singular, hyphenated where needed
