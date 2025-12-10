@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Military Vocab Challenge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Military Vocab Challenge</h1>
+    <p class="subtitle">
+      Enter your class and surname, then guess the military terms from their definitions.
+    </p>
+
+    <div id="identity-box" class="identity-box hidden">
+      <strong>Cadet:</strong> <span id="identity-text"></span>
+    </div>
+
+    <div id="level-box" class="card">
+      <div class="level-header">
+        <span id="level-label">Level 1</span>
+        <span id="level-count"></span>
+      </div>
+      <p id="prompt" class="prompt"></p>
+
+      <input
+        type="text"
+        id="answer-input"
+        placeholder="Type your answer here"
+        autocomplete="off"
+      />
+      <button id="submit-btn">Submit</button>
+
+      <p id="hint" class="hint"></p>
+      <p id="feedback" class="feedback"></p>
+
+      <div class="progress-wrapper">
+        <div id="progress-bar"></div>
+      </div>
+    </div>
+
+    <div id="final-box" class="card hidden">
+      <h2>Mission Complete!</h2>
+      <p>You have finished all levels.</p>
+      <p>Your personalized flag:</p>
+      <pre id="flag-output" class="flag-output"></pre>
+      <button id="copy-flag-btn">Copy flag</button>
+      <p id="copy-feedback" class="copy-feedback"></p>
+    </div>
+
+    <footer>
+      <small>Tip: Multi-word terms use hyphens, e.g. <code>air-defence-system</code>, <code>booby-trap</code>.</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
