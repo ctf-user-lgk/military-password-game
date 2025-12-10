@@ -103,12 +103,6 @@ const vocabLevels = [
     hint: "Often used for breaching doors."
   },
   {
-    termKey: "rifle",
-    answers: ["rifle"],
-    definition: "Long gun used for accurate fire, including assault rifle variants.",
-    hint: "Examples: M16, AK-74, HK416."
-  },
-  {
     termKey: "carbine",
     answers: ["carbine"],
     definition: "Shorter, lighter version of a rifle.",
@@ -209,6 +203,18 @@ const vocabLevels = [
     answers: ["ballistic-missile"],
     definition: "Missile that follows a high, curved trajectory.",
     hint: "Launched into sub-orbital flight paths."
+  },
+  {
+    termKey: "ifv",
+    answers: ["ifv", "infantry-fighting-vehicle"],
+    definition: "Armored combat vehicle designed to transport infantry and provide fire support.",
+    hint: "Used by mechanized infantry; examples include Bradley and CV90."
+  },
+  {
+    termKey: "apc",
+    answers: ["apc", "armored-personnel-carrier", "armoured-personnel-carrier"],
+    definition: "Protected vehicle used to transport soldiers safely to the battlefield.",
+    hint: "Common models include M113 and BTR series."
   }
 ];
 
@@ -220,7 +226,40 @@ const FLAG_PHRASES = [
   "NIGHTWATCH",
   "STEELRAIN",
   "SHADOWSPEAR",
-  "BRAVO6"
+  "BRAVO6",
+  "GHOSTRUNNER",
+  "SILENTTALON",
+  "THUNDERSTRIKE",
+  "WOLFPACK",
+  "FORCEVECTOR",
+  "SKYVETERAN",
+  "WARHAWK",
+  "SILVERARROW",
+  "FIRESHIELD",
+  "EAGLESPIRIT",
+  "NIGHTRAVEN",
+  "COLDSTEEL",
+  "BATTLEDRAGON",
+  "REDVIPER",
+  "STORMBREAKER",
+  "PHANTOMRIDER",
+  "IRONWOLF",
+  "TACTICALEDGE",
+  "VALKYRIEWING",
+  "SABERTOOTH",
+  "DELTASPECTER",
+  "FROSTTIGER",
+  "SKYHAMMER",
+  "HELLFIRE",
+  "FALCONEYE",
+  "DRAGONFANG",
+  "TITANSHIELD",
+  "BLADERUNNER",
+  "NIGHTFURY",
+  "BLACKHAWK",
+  "SCARLETFOX",
+  "RAPTORSTRIKE",
+  "SILENTBLADE"
 ];
 
 // --------- GAME STATE ---------
