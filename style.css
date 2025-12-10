@@ -158,6 +158,34 @@ button:active {
   margin-top: 4px;
 }
 
+/* ---------------------------- */
+/* NEW: PASSWORD BOX / HISTORY  */
+/* ---------------------------- */
+
+#password-box {
+  margin-top: 16px;
+  background: rgba(30, 41, 59, 0.85); /* slightly lighter than .card */
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(100, 116, 139, 0.35);
+}
+
+#password-box h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #93c5fd; /* light blue title */
+}
+
+#password-display {
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.88rem;
+  color: #e2e8f0;
+}
+
 .hidden {
   display: none;
 }
