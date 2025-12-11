@@ -33,7 +33,7 @@ const vocabLevels = [
   {
     termKey: "cca",
     answers: ["cca", "collaborative-combat-aircraft"],
-    definition: "Autonomous drone that cooperates with a fighter jet to extend combat capability.",
+    definition: "Autonomous drone that cooperates with a fighter jet to extend combat capability. (short or long form)",
     hint: "Used alongside aircraft like the F-35 in loyal wingman roles."
   },
   {
@@ -133,15 +133,15 @@ const vocabLevels = [
     hint: "Common calibers include 30mm and 40mm."
   },
   {
-    termKey: "manpat",
-    answers: ["manpat"],
-    definition: "Short form of a man-portable anti-tank weapon system.",
+    termKey: "manpats",
+    answers: ["manpats"],
+    definition: "SHORTENED FORM: of a man-portable anti-tank weapon system.",
     hint: "Example: FGM-148 Javelin."
   },
   {
-    termKey: "manpad",
-    answers: ["manpad"],
-    definition: "Shoulder-launched air-defence missile system used to destroy aircraft.",
+    termKey: "manpads",
+    answers: ["manpads"],
+    definition: "SHORTENED FORM: Shoulder-launched air-defence missile system used to destroy aircraft.",
     hint: "Example: FIM-92 Stinger."
   },
   {
@@ -165,7 +165,7 @@ const vocabLevels = [
   {
     termKey: "ugv",
     answers: ["ugv", "unmanned-ground-vehicle"],
-    definition: "Robotic vehicle operating on land without a crew.",
+    definition: "Robotic vehicle operating on land without a crew. (short or long form)",
     hint: "Ukrainian examples include Ironclad and Ratel-S."
   },
   {
@@ -177,7 +177,7 @@ const vocabLevels = [
   {
     termKey: "casevac",
     answers: ["casevac", "casualty-evacuation"],
-    definition: "Emergency removal of wounded personnel from the battlefield.",
+    definition: "Emergency removal of wounded personnel from the battlefield. (short or long form)",
     hint: "May involve helicopters, APCs, or armored ambulances."
   },
   {
@@ -207,13 +207,13 @@ const vocabLevels = [
   {
     termKey: "ifv",
     answers: ["ifv", "infantry-fighting-vehicle"],
-    definition: "Armored combat vehicle designed to transport infantry and provide fire support.",
+    definition: "Armored combat vehicle designed to transport infantry and provide fire support. (short or long form)",
     hint: "Used by mechanized infantry; examples include Bradley and CV90."
   },
   {
     termKey: "apc",
     answers: ["apc", "armored-personnel-carrier", "armoured-personnel-carrier"],
-    definition: "Protected vehicle used to transport soldiers safely to the battlefield.",
+    definition: "Protected vehicle used to transport soldiers safely to the battlefield. (short or long form)",
     hint: "Common models include M113 and BTR series."
   }
 ];
